@@ -116,8 +116,10 @@
     position: relative;
     flex: 0 0 100%;
     width: 100%;
+   
   }
   
+ 
   
   .carousel__snapper {
     position: absolute;
@@ -194,8 +196,7 @@
   
   .carousel::before,
   .carousel::after {
-    content: '';
-    z-index: 1;
+    
     background-color: #333;
     background-size: 1.5rem 1.5rem;
     background-repeat: no-repeat;
@@ -206,7 +207,6 @@
     text-align: center;
     pointer-events: none;
   }
-  
   
   
 
