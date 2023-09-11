@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de Música</title>
+    <link rel="stylesheet" href="estilos\estilo_1.css" />
+
+</head>
+
+<body background="https://live.staticflickr.com/65535/53164906536_d102eecfef_b.jpg">
+    <table class="tabla1" border="2">
+        <tr>
+            <th><a href="principal.html" >PRINCIPAL</a></th>
+            <th><a href="actividad_1.html">MUSICA</a></th>
+            <th><a href="actividad_2.html" >MOTOS</a></th>
+            <th><a href="actividad_3.html" >BAR</a></th>
+            <th><a href="actividad_4.html" >GRUPO</a></th>
+            
+
+        </tr>
+    </table>
+    <header>
+        <h1>Festival de Música</h1>
+    </header>
+
+    
+    <section>
+        <h2>Descubre los mejores festivales de música</h2>
+        <p>Explora una serie de emocionantes festivales de música que tendrán lugar a lo largo del año.
+            Aquí tienes una lista de algunos de nuestros próximos festivales:</p>
+        <ul>
+            <li>Festival de Rock Alternativo</li>
+            <li>Festival de Jazz en la Ciudad</li>
+            <li>Festival de Música Electrónica</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Próximos Festivales</h2>
+        <table class="tabla2" border="2">
+            <tr>
+                <th>Festival</th>
+                <th>Ciudad</th>
+                <th>Fecha</th>
+                <th>Hora</th>
+            </tr>
+            <tr>
+                <td>Festival de Rock Alternativo</td>
+                <td>Bogotá</td>
+                <td>4-6 Feb 2023</td>
+                <td>17:00 - 23:00</td>
+            </tr>
+            <tr>
+                <td>Festival de Jazz en la Ciudad</td>
+                <td>Ibagué</td>
+                <td>7-9 Agos 2023</td>
+                <td>18:30 - 22:30</td>
+            </tr>
+            <tr>
+                <td>Festival de Música Electrónica</td>
+                <td>Medellín</td>
+                <td>15-17 Oct 2023</td>
+                <td>20:00 - 03:00</td>
+            </tr>
+        </table>
+    </section>
+    <br>
+
+    <section class="registro">
+        <form >
+            <fieldset>
+                <h1>Formulario de inscripción</h1>
+                <fieldset>
+                    <p><label for="nombre">Tu Nombre:</label>
+                        <br>
+                        <input type="text" name="name" id="name" required>
+                    </p>
+                    <p><label for="edad">Tu edad:</label>
+                        <br>
+                        <input type="number" name="edad" id="edad" required>
+                    </p>
+                    <p><label for="email">Tu Correo Electrónico:</label>
+                        <br>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <p><label for="celular">Tu número celular:</label>
+                        <br>
+                        <input type="number" name="celular" id="celular" required>
+                    </p>
+                    <p><label for="festival">Selecciona un Festival:</label>
+                        <br>
+                        <select name="festival" id="festival" required>
+                            <option value="rock">Festival de Rock Alternativo</option>
+                            <option value="jazz">Festival de Jazz en la Ciudad</option>
+                            <option value="electronica">Festival de Música Electrónica</option>
+                        </select>
+                    </p>
+                    <p><label>¿Eres Miembro de la Comunidad Musical?</label>
+                        <label><input type="radio" name="member" value="si" required> Sí</label>
+                        <label><input type="radio" name="member" value="no" required> No</label>
+                    </p>
+                </fieldset>
+                <div class="submit"><input type="submit" value="Registrarse"></div>
+            </fieldset>
+        </form>
+    </section>
+    
+</body>
+
+</html>
+
+</html>

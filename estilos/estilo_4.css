@@ -1,0 +1,131 @@
+@media (max-width: 768px) {
+  /* Define tus estilos para pantallas pequeñas aquí */
+}
+
+/* Estilos para pantallas medianas (por ejemplo, tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Define tus estilos para pantallas medianas aquí */
+}
+
+/* Estilos para pantallas grandes (por ejemplo, escritorios) */
+@media (min-width: 1025px) {
+  /* Define tus estilos para pantallas grandes aquí */
+}
+.tabla1{
+  width: 100%;
+ }
+ 
+.tabla1 th{
+  text-align: center;
+  background-color:  #003366;
+        
+}
+.tabla1 a{
+  color: #ffffff;
+}
+
+
+body {
+  color: #ffffff;
+          background: #003366; /* Cambio de fondo a un azul más oscuro */
+         
+          text-align: center;
+          
+      }
+    
+
+header {
+  background-color:   #a4c900; /* Cambio de color de fondo del encabezado */
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #fff; /* Texto en blanco */
+  font-size: 36px;
+  animation: colorChange 20s infinite;
+  margin: 0;
+}
+
+@keyframes colorChange {
+  0% { color: red; } /* Color inicial */
+  25% { color: rgb(6, 6, 8); } /* Cambio de color a azul al 25% de la animación */
+  50% { color: rgb(250, 250, 250); } /* Cambio de color a verde al 50% de la animación */
+  75% { color: rgb(197, 136, 22); } /* Cambio de color a naranja al 75% de la animación */
+  100% { color: red; } /* Regreso al color inicial al final de la animación */
+  }
+nav {
+  background-color: #003366; ; /* Cambio de color de fondo de la barra de navegación */
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff; /* Texto en blanco */
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color:  #fff; ; /* Cambio de color de los títulos secundarios */
+}
+
+.menu-item {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.menu-item img {
+  max-width: 200px;
+  margin-right: 20px;
+  border: 2px solid  #003366; /* Borde alrededor de las imágenes */
+}
+
+.menu-item-description h2 {
+  color:  #f7573f; /* Cambio de color del título de los platos */
+}
+
+.footer {
+  background-color:  #a4c900;  /* Cambio de color de fondo del pie de página */
+  text-align: center;
+  padding: 10px 0;
+  color: #fff; /* Texto en blanco */
+}
+
+.repertorio img{
+  width: 500px;
+  right: 400px;
+}
+
+.nav {
+  font-size: 30px;
+  float: center;
+  font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+  padding: 45px 0px 0px 0px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.carousel__snapper img {
+  width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+  height: 100%; /* Permite que la altura se ajuste automáticamente */
+}
+
+.contacto a{
+color: #f7573f;
+}

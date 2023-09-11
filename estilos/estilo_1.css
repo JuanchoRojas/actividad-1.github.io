@@ -1,0 +1,875 @@
+@media (max-width: 320px) {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    header {
+        animation: colorChange 10s infinite;
+        background-color: #5e6463;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @keyframes colorChange {
+        0% {
+            color: red;
+        }
+
+        /* Color inicial */
+        25% {
+            color: blue;
+        }
+
+        /* Cambio de color a azul al 25% de la animación */
+        50% {
+            color: green;
+        }
+
+        /* Cambio de color a verde al 50% de la animación */
+        75% {
+            color: orange;
+        }
+
+        /* Cambio de color a naranja al 75% de la animación */
+        100% {
+            color: red;
+        }
+
+        /* Regreso al color inicial al final de la animación */
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    /* Estilos para la tabla de navegación */
+    .tabla1 {
+        width: 100%;
+    }
+
+    .tabla1 th {
+        text-align: center;
+        background-color: #3c5252;
+        color: #fff;
+    }
+
+    .tabla1 a {
+        color: #fff;
+    }
+
+    /* Estilos para la tabla de información */
+    .tabla2 {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 10px;
+    }
+
+    th {
+        text-align: center;
+        background-color: #3c5252;
+        color: #fff;
+    }
+
+    /* Estilos para el formulario de inscripción */
+    fieldset {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    legend {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    select,
+    input[type="text"],
+    input[type="number"],
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+
+    .submit {
+        text-align: center;
+    }
+
+    .submit input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .submit input[type="submit"]:hover {
+        background-color: #555;
+    }
+
+    /* Estilos para la sección de registro */
+    .registro {
+        background-color: #3c5252;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .registro input,
+    .registro select {
+        background-color: #fbfcfc;
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        border: 1px solid aliceblue;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    /* Define tus estilos para pantallas pequeñas aquí */
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    header {
+        animation: colorChange 10s infinite;
+        background-color: #5e6463;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @keyframes colorChange {
+        0% {
+            color: red;
+        }
+
+        /* Color inicial */
+        25% {
+            color: blue;
+        }
+
+        /* Cambio de color a azul al 25% de la animación */
+        50% {
+            color: green;
+        }
+
+        /* Cambio de color a verde al 50% de la animación */
+        75% {
+            color: orange;
+        }
+
+        /* Cambio de color a naranja al 75% de la animación */
+        100% {
+            color: red;
+        }
+
+        /* Regreso al color inicial al final de la animación */
+    }
+
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .tabla1 {
+        width: 100%;
+    }
+
+    .tabla1 th {
+        text-align: center;
+        background-color: #3c5252;
+
+    }
+
+    .tabla1 a {
+        color: #ffffff;
+    }
+
+    .tabla2 {
+
+        width: 50%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    th {
+        text-align: center;
+        background-color: #3c5252;
+        color: #fff;
+    }
+
+    fieldset {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    legend {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    select,
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+
+    .submit {
+        text-align: center;
+    }
+
+    .submit input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .submit input[type="submit"]:hover {
+        background-color: #555;
+    }
+
+
+    .registro {
+        background-color: #3c5252;
+        width: 48.5%;
+        padding: 10px;
+    }
+
+    .registro input {
+        background-color: #fbfcfc;
+        width: 60%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid aliceblue;
+        font-size: 20px;
+    }
+
+    .registro select {
+
+        width: 63%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid aliceblue;
+        font-size: 20px;
+    }
+}
+
+/* Estilos para pantallas medianas (por ejemplo, tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* Define tus estilos para pantallas medianas aquí */
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    header {
+        animation: colorChange 10s infinite;
+        background-color: #5e6463;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @keyframes colorChange {
+        0% {
+            color: red;
+        }
+
+        /* Color inicial */
+        25% {
+            color: blue;
+        }
+
+        /* Cambio de color a azul al 25% de la animación */
+        50% {
+            color: green;
+        }
+
+        /* Cambio de color a verde al 50% de la animación */
+        75% {
+            color: orange;
+        }
+
+        /* Cambio de color a naranja al 75% de la animación */
+        100% {
+            color: red;
+        }
+
+        /* Regreso al color inicial al final de la animación */
+    }
+
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .tabla1 {
+        width: 100%;
+    }
+
+    .tabla1 th {
+        text-align: center;
+        background-color: #3c5252;
+
+    }
+
+    .tabla1 a {
+        color: #ffffff;
+    }
+
+    .tabla2 {
+
+        width: 50%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    th {
+        text-align: center;
+        background-color: #3c5252;
+        color: #fff;
+    }
+
+    fieldset {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    legend {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    select,
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+
+    .submit {
+        text-align: center;
+    }
+
+    .submit input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .submit input[type="submit"]:hover {
+        background-color: #555;
+    }
+
+
+    .registro {
+        background-color: #3c5252;
+        width: 48.5%;
+        padding: 10px;
+    }
+
+    .registro input {
+        background-color: #fbfcfc;
+        width: 60%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid aliceblue;
+        font-size: 20px;
+    }
+
+    .registro select {
+
+        width: 63%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid aliceblue;
+        font-size: 20px;
+    }
+}
+
+/* Estilos para pantallas grandes (por ejemplo, escritorios) */
+@media (min-width: 1025px) {
+
+    /* Define tus estilos para pantallas grandes aquí */
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    header {
+        animation: colorChange 10s infinite;
+        background-color: #5e6463;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @keyframes colorChange {
+        0% {
+            color: red;
+        }
+
+        /* Color inicial */
+        25% {
+            color: blue;
+        }
+
+        /* Cambio de color a azul al 25% de la animación */
+        50% {
+            color: green;
+        }
+
+        /* Cambio de color a verde al 50% de la animación */
+        75% {
+            color: orange;
+        }
+
+        /* Cambio de color a naranja al 75% de la animación */
+        100% {
+            color: red;
+        }
+
+        /* Regreso al color inicial al final de la animación */
+    }
+
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .tabla1 {
+        width: 100%;
+    }
+
+    .tabla1 th {
+        text-align: center;
+        background-color: #3c5252;
+
+    }
+
+    .tabla1 a {
+        color: #ffffff;
+    }
+
+    .tabla2 {
+
+        width: 50%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    th {
+        text-align: center;
+        background-color: #3c5252;
+        color: #fff;
+    }
+
+    fieldset {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    legend {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    select,
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+
+    .submit {
+        text-align: center;
+    }
+
+    .submit input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .submit input[type="submit"]:hover {
+        background-color: #555;
+    }
+
+
+    .registro {
+        background-color: #3c5252;
+        width: 48.5%;
+        padding: 10px;
+    }
+
+    .registro input {
+        background-color: #fbfcfc;
+        width: 60%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid aliceblue;
+        font-size: 20px;
+    }
+
+    .registro select {
+
+        width: 63%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid aliceblue;
+        font-size: 20px;
+    }
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    animation: colorChange 10s infinite;
+    background-color: #5e6463;
+    text-align: center;
+    padding: 20px;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+
+    /* Color inicial */
+    25% {
+        color: blue;
+    }
+
+    /* Cambio de color a azul al 25% de la animación */
+    50% {
+        color: green;
+    }
+
+    /* Cambio de color a verde al 50% de la animación */
+    75% {
+        color: orange;
+    }
+
+    /* Cambio de color a naranja al 75% de la animación */
+    100% {
+        color: red;
+    }
+
+    /* Regreso al color inicial al final de la animación */
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.tabla1 {
+    width: 100%;
+}
+
+.tabla1 th {
+    text-align: center;
+    background-color: #3c5252;
+
+}
+
+.tabla1 a {
+    color: #ffffff;
+}
+
+.tabla2 {
+
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+
+}
+
+th {
+    text-align: center;
+    background-color: #3c5252;
+    color: #fff;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+select,
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+.registro {
+    background-color: #3c5252;
+    width: 48.5%;
+    padding: 10px;
+}
+
+.registro input {
+    background-color: #fbfcfc;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid aliceblue;
+    font-size: 20px;
+}
+
+.registro select {
+
+    width: 63%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid aliceblue;
+    font-size: 20px;
+}

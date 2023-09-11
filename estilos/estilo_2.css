@@ -1,0 +1,140 @@
+
+@media (max-width: 768px) {
+    /* Define tus estilos para pantallas pequeñas aquí */
+  }
+  
+  /* Estilos para pantallas medianas (por ejemplo, tablets) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Define tus estilos para pantallas medianas aquí */
+  }
+  
+  /* Estilos para pantallas grandes (por ejemplo, escritorios) */
+  @media (min-width: 1025px) {
+    /* Define tus estilos para pantallas grandes aquí */
+  }
+body {
+    font-family: cursive;
+    margin: 0%;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    background-color: #ffffff;
+    width: 1100px;
+    height: 1050px;
+    margin: 0 auto;
+    padding: 0px;
+    border: 2px solid #000;
+    border-top: 2px solid #000;
+    /* Borde superior */
+    border-bottom: 2px solid #000;
+    /* Borde inferior */
+}
+
+.content {
+    padding: 8px;
+    /* Margen interior del contenedor */
+    background-color: #f50d01;
+    color: #020202;
+}
+
+
+
+.container img {
+
+    width: 242px;
+    height: 190px;
+}
+
+.motos img {
+    float: left;
+    width: 300px;
+    height: 220px;
+}
+
+.cont_honda {
+    position: right;
+}
+
+.cont_honda h2 {
+    font-size: 25px;
+}
+
+.cont_honda h3 {
+    font-size: 20px;
+}
+
+.container aside {
+    width: 300px;
+    height: 732px;
+    background-color: #ffffff;
+    float: right;
+}
+
+.resaltar {
+    background-color: #ffffff;
+    /* Cambia el color de fondo como desees */
+    transition: background-color 0.5s;
+    /* Agrega una transición para suavizar el cambio */
+    color: #f50d01;
+}
+
+
+/* Estilos para el enlace */
+ul li a {
+    text-decoration: none;
+    color: #f50d01;
+    /* Cambia el color del texto según tus preferencias */
+}
+
+/* Estilos para el enlace cuando se pasa el cursor sobre él */
+ul li a:hover {
+    /* Agrega el resaltado al cuadro padre */
+    background-color: #FFFF00;
+    /* Puedes usar el mismo color que en el cuadro o uno diferente */
+}
+
+/* Estilos para el cuadro cuando se pasa el cursor sobre el enlace */
+ul li a:hover~.resaltar {
+    background-color: #FFFF00;
+    /* Cambia el color de fondo del cuadro cuando se pasa el cursor sobre el enlace */
+}
+
+
+footer {
+    background-color: #f50d01;
+    max-width: 81.55%;
+    /* Establece el ancho máximo al 100% del contenedor padre */
+    margin: 0 auto;
+}
+
+.cont_honda a {
+    color: #f50d01;
+}
+
+.cont_yamaha a {
+    color: #f50d01;
+}
+
+.cont_suzuki a {
+    color: #f50d01;
+}
+
+.tabla1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tabla1 th {
+    text-align: center;
+    background-color: #f50d01;
+    color: #000;
+}
+
+.tabla1 a {
+    color: #070707;
+}

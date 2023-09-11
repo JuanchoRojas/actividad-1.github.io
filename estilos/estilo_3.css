@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+    /* Define tus estilos para pantallas pequeñas aquí */
+}
+
+/* Estilos para pantallas medianas (por ejemplo, tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Define tus estilos para pantallas medianas aquí */
+}
+
+/* Estilos para pantallas grandes (por ejemplo, escritorios) */
+@media (min-width: 1025px) {
+    /* Define tus estilos para pantallas grandes aquí */
+}
+.tabla1{
+    width: 100%;
+   }
+   
+.tabla1 th{
+    text-align: center;
+    background-color: #1E1E1E;
+          
+}
+.tabla1 a{
+    color: #ffffff;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    font: small-caps 130%/200% serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E1E1E;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.bienvenidos {
+    background-image: url('bar.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.bienvenidos h2 {
+    font-size: 48px;
+}
+
+.acerca {
+    background-color: #222;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.acerca p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.menu{
+    background-color: #333;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contacto {
+    background-color:  #222;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contacto p {
+    font-size: 24px;
+}
+
+.contacto img{
+    width:100px;
+    height:100px; 
+}
+
+.menu img{
+    width:500px;
+    height:400px;
+}
+
+.bienvenidos iframe {
+    width:560px;
+    height:315px;
+}
